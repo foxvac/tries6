@@ -5,12 +5,12 @@ echo "请输入你的内网ip"
 read -p "内网ip： " ip
 cd
 cd libpcap-1.8.1
-rm -rf tries4/
+rm -rf tries6/
 cd 
-rm -rf tries4/
+rm -rf tries6/
 chmod +x restart.sh
-git clone https://github.com/foxvac/tries4.git
-cd tries4/
+git clone https://github.com/foxvac/tries6.git
+cd tries6/
 npm i
 npm i -g pino
 npm install -g forever
